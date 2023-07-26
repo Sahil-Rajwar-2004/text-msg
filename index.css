@@ -1,0 +1,189 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: grid;
+    width: 30rem;
+    height: 30rem;
+}
+
+.tweet-1{
+    background-color: white;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.tweet-1 > .user-profile{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.tweet-1 > .user-profile > .profile-pic img{
+    cursor: pointer;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.tweet-1 > .user-profile > .user-full-name h2{
+    color: orange;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.tweet-1 > .user-profile > .user-full-name h2:hover{
+    text-decoration: underline;
+}
+
+.tweet-1 > .user-profile > .username h4{
+    user-select: none;
+    font-family: monospace;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.tweet-1 > .content{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bar > .like img{
+    width: 1.5rem;
+}
+
+.bar > .share img{
+    width: 1.5rem;
+}
+
+.bar > .retweet img{
+    width: 1.5rem;
+}
+
+.bar > .comment img{
+    width: 1.5rem;
+}
+
+
+.tweet-2{
+    background-color: white;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.tweet-2 > .user-profile{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.tweet-2 > .user-profile > .profile-pic img{
+    cursor: pointer;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.tweet-2 > .user-profile > .user-full-name h2{
+    color: orange;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.tweet-2 > .user-profile > .user-full-name h2:hover{
+    text-decoration: underline;
+}
+
+.tweet-2 > .user-profile > .username h4{
+    user-select: none;
+    font-family: monospace;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.tweet-2 > .content{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}   
+
+.tweet-3{
+    background-color: white;
+    gap: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.tweet-3 > .user-profile{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.tweet-3 > .user-profile > .profile-pic img{
+    cursor: pointer;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.tweet-3 > .user-profile > .user-full-name h2{
+    color: orange;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.tweet-3 > .user-profile > .user-full-name h2:hover{
+    text-decoration: underline;
+}
+
+.tweet-3 > .user-profile > .username h4{
+    user-select: none;
+    font-family: monospace;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.tweet-3 > .content{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.tweet-3 >.content > video{
+    width: 35.5rem;
+    height: 20rem;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
